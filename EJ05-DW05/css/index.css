@@ -1,0 +1,88 @@
+
+
+
+header {
+    height: 100px;
+    background-color: aquamarine;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: #eee;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 255, 128);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 1px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 4px 6px black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: green;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+aside {
+    flex: 12;
+    background-color: pink;
+    padding: 2rem;
+    border-left: #eee;
+}
+
+.context {
+    flex: 3;
+    padding-right: 2rem;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 70;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1 { font-family: "Times New Roman", Times, serif;}
+   
